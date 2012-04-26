@@ -1,0 +1,5 @@
+_ReSharper.PuttyWrap/*
+PuttyWrap/obj*
+bin/*
+!bin/*.dll
+!bin/*.DLL
