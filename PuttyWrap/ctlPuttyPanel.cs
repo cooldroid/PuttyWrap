@@ -41,15 +41,15 @@ namespace PuttyWrap
 
             InitializeComponent();
 
-            this.Text = session.SessionName;
-
+            //this.Text = session.SessionName;
+            this.TabText = session.SessionName;
             CreatePanel();
         }
 
         private void CreatePanel()
         {
             this.applicationwrapper1 = new ApplicationPanel();
-            this.SuspendLayout();            
+            this.SuspendLayout();
             this.applicationwrapper1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.applicationwrapper1.ApplicationName = frmPuttyWrap.PuttyExe;
             this.applicationwrapper1.ApplicationParameters = this.ApplicationParameters;
